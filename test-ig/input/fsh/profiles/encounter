@@ -1,1 +1,7 @@
-
+// Startprofilen för kursen. Den här profilen bygger vi vidare på i modul 3 och 4.
+// Namnkonvention: [prefix][Resurstyp] i PascalCase, och samma värde för Id.
+Profile: EducationEncounter
+Parent: Encounter
+Id: EducationEncounter
+Title: "Min nya profil"
+Description: "Encounterprofil för FHIR-utbildningen. Profilen byggs ut steg för steg under kursen."
