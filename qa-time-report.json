@@ -1,47 +1,47 @@
 {
-  "date" : "Mon, 02 Nov, 2026 10:39:20 +0000",
+  "date" : "Mon, 02 Nov, 2026 10:41:46 +0000",
   "doco" : "For each file: start is seconds after start activity occurred. Length = milliseconds activity took",
   "files" : [{
     "name" : "/fsh-generated/resources/ImplementationGuide-fhir.education.kursig.json",
     "size" : 2057,
     "processes" : [{
       "activity" : "load",
-      "start" : 27,
-      "length" : 110
+      "start" : 22,
+      "length" : 257
     },
     {
       "activity" : "checkR4R4B",
-      "start" : 27,
-      "length" : 8
+      "start" : 22,
+      "length" : 15
     },
     {
       "activity" : "generateNarratives",
-      "start" : 27,
-      "length" : 144
+      "start" : 22,
+      "length" : 77
     },
     {
       "activity" : "validate",
-      "start" : 28,
-      "length" : 2108
+      "start" : 24,
+      "length" : 4920
     },
     {
       "activity" : "generate1",
-      "start" : 31,
-      "length" : 38
+      "start" : 29,
+      "length" : 51
     },
     {
       "activity" : "generate2",
       "start" : 32,
-      "length" : 41
+      "length" : 68
     },
     {
       "activity" : "generateValidationPack",
-      "start" : 38,
+      "start" : 40,
       "length" : 2
     },
     {
       "activity" : "scanExamplesForR5",
-      "start" : 40,
+      "start" : 42,
       "length" : 1
     }]
   },
@@ -50,38 +50,38 @@
     "size" : 494,
     "processes" : [{
       "activity" : "loadResources",
-      "start" : 27,
-      "length" : 3
+      "start" : 22,
+      "length" : 5
     },
     {
       "activity" : "load-configure",
-      "start" : 27,
+      "start" : 22,
       "length" : 2
     },
     {
-      "activity" : "loadInfo",
-      "start" : 27,
+      "activity" : "checkR4R4B",
+      "start" : 22,
       "length" : 1
     },
     {
       "activity" : "generateNarratives",
-      "start" : 27,
-      "length" : 173
+      "start" : 23,
+      "length" : 323
     },
     {
       "activity" : "validate",
-      "start" : 30,
+      "start" : 29,
       "length" : 6
     },
     {
       "activity" : "generate1",
-      "start" : 31,
-      "length" : 5
+      "start" : 29,
+      "length" : 6
     },
     {
       "activity" : "generate2",
       "start" : 32,
-      "length" : 8
+      "length" : 12
     }]
   },
   {
@@ -89,61 +89,71 @@
     "size" : 1596,
     "processes" : [{
       "activity" : "loadResources",
-      "start" : 27,
-      "length" : 1
-    },
-    {
-      "activity" : "load",
-      "start" : 27,
-      "length" : 5
-    },
-    {
-      "activity" : "generateSnapshots",
-      "start" : 27,
-      "length" : 75
-    },
-    {
-      "activity" : "generateNarratives",
-      "start" : 27,
-      "length" : 386
-    },
-    {
-      "activity" : "validate",
-      "start" : 28,
-      "length" : 578
-    },
-    {
-      "activity" : "scanForUsageStats",
-      "start" : 30,
+      "start" : 22,
       "length" : 2
     },
     {
+      "activity" : "load",
+      "start" : 22,
+      "length" : 11
+    },
+    {
+      "activity" : "generateSnapshots",
+      "start" : 22,
+      "length" : 84
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 23,
+      "length" : 293
+    },
+    {
+      "activity" : "validate",
+      "start" : 23,
+      "length" : 997
+    },
+    {
+      "activity" : "checkConformanceResources",
+      "start" : 29,
+      "length" : 1
+    },
+    {
+      "activity" : "scanForUsageStats",
+      "start" : 29,
+      "length" : 3
+    },
+    {
       "activity" : "generate1",
-      "start" : 31,
-      "length" : 164
+      "start" : 29,
+      "length" : 199
     },
     {
       "activity" : "generate2",
       "start" : 32,
-      "length" : 690
+      "length" : 1022
     },
     {
       "activity" : "generate2",
       "start" : 33,
-      "length" : 1528
+      "length" : 1237
     },
     {
       "activity" : "generateValidationPack",
-      "start" : 38,
-      "length" : 7
+      "start" : 40,
+      "length" : 11
+    },
+    {
+      "activity" : "scanExamplesForR5",
+      "start" : 42,
+      "length" : 1
     }]
   },
   {
     "name" : "/fsh-generated/includes/fsh-link-references.md",
     "size" : 107,
     "processes" : [{
-      "activity" : "generate2",
-      "start" : 33,
+      "activity" : "validate",
+      "start" : 29,
       "length" : 1
     }]
   },
@@ -165,6 +175,11 @@
   },
   {
     "name" : "/temp/pages/_includes/artifacts.xml",
-    "size" : 2198
+    "size" : 2198,
+    "processes" : [{
+      "activity" : "generate2",
+      "start" : 33,
+      "length" : 1
+    }]
   }]
 }
